@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+  width: 420px;
+  border: 1px solid #e1e1e1;
+}
+
+h2 {
+  text-align: center;
+  color: #234323;
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 12px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+textarea {
+  padding: 8px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.age-gender {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.checkboxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin-top: 5px;
+  accent-color: #2e5f2e;
+}
+
+input[type="file"] {
+  margin-top: 6px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 25px;
+  background-color: #2e5f2e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #234b23;
+}

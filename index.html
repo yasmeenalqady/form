@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Summer Camp Registration</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <style></style>
+</head>
+<body>
+  <div class="card">
+    <h2>Summer Camp Registration</h2>
+    <form>
+      <label>Full Name of Child</label>
+      <input type="text" />
+
+      <label>Age</label>
+      <div class="age-gender">
+        <input type="number" />
+        <label><input type="radio" name="gender" /> Male</label>
+        <label><input type="radio" name="gender" /> Female</label>
+      </div>
+
+      <label>Full Name of Parent/Guardian</label>
+      <input type="text" />
+
+      <label>Email</label>
+      <input type="email" />
+
+      <label>Start Date of Camp</label>
+      <input type="date" />
+
+      <label>Preferred Activities</label>
+      <div class="checkboxes">
+        <label><input type="checkbox" /> Swimming</label>
+        <label><input type="checkbox" /> Art</label>
+        <label><input type="checkbox" /> Drama</label>
+        <label><input type="checkbox" /> Soccer</label>
+      </div>
+
+      <label>Activity Level</label>
+      <input type="range" />
+
+      <label>Medical information</label>
+      <textarea rows="3"></textarea>
+
+      <label>Upload Photo of Child</label>
+      <input type="file" />
+
+      <div class="buttons">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
